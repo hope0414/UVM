@@ -1,0 +1,72 @@
+Sun Sep 29 20:10:26 EDT 2019
+Trace back: window name "titlebar" already exists in parent
+    while executing
+"::.windowmgr ShowWindowType uvmdetails"
+    ("eval" body line 1)
+    invoked from within
+"eval $vsimPriv(windowmgr) ShowWindowType $window_type"
+    while executing
+"view $type"
+    (procedure "toggleview_multiinstanced" line 10)
+    invoked from within
+"toggleview_multiinstanced $type"
+    (procedure "toggleview" line 5)
+    invoked from within
+"toggleview uvmdetails"
+    invoked from within
+".#mBar.#mBar#view invoke active"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel #0 [list $w invoke active]"
+    (procedure "tk::MenuInvoke" line 50)
+    invoked from within
+"tk::MenuInvoke .#mBar.#mBar#view 1"
+    (command bound to event)
+  <2:/afs/eos.ncsu.edu/dist/mg_apps/questa10.7c/linux/tk8.6/bgerror.tcl:106: ::tkerror {window name "titlebar" already exists in parent
+    while executing
+"::.windowmgr ShowWindowType uvmdetails"
+    ("eval" body line 1)
+    invoked from within
+"eval $vsimPriv(windowmgr) ShowWindowType $window_type"}
+  <1:proc:14: ::tk::dialog::error::bgerror {window name "titlebar" already exists in parent
+    while executing
+"::.windowmgr ShowWindowType uvmdetails"
+    ("eval" body line 1)
+    invoked from within
+"eval $vsimPriv(windowmgr) ShowWindowType $window_type"}
+Sun Sep 29 20:15:08 EDT 2019
+Trace back: This command requires the vsim -classdebug switch.
+    while executing
+"::.windowmgr ShowWindowType uvmdetails"
+    ("eval" body line 1)
+    invoked from within
+"eval $vsimPriv(windowmgr) ShowWindowType $window_type"
+    while executing
+"view $type"
+    (procedure "toggleview_multiinstanced" line 10)
+    invoked from within
+"toggleview_multiinstanced $type"
+    (procedure "toggleview" line 5)
+    invoked from within
+"toggleview uvmdetails"
+    invoked from within
+".#mBar.#mBar#view invoke active"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel #0 [list $w invoke active]"
+    (procedure "tk::MenuInvoke" line 50)
+    invoked from within
+"tk::MenuInvoke .#mBar.#mBar#view 1"
+    (command bound to event)
+  <2:/afs/eos.ncsu.edu/dist/mg_apps/questa10.7c/linux/tk8.6/bgerror.tcl:106: ::tkerror {This command requires the vsim -classdebug switch.
+    while executing
+"::.windowmgr ShowWindowType uvmdetails"
+    ("eval" body line 1)
+    invoked from within
+"eval $vsimPriv(windowmgr) ShowWindowType $window_type"}
+  <1:eval:1: ::tk::dialog::error::bgerror {This command requires the vsim -classdebug switch.
+    while executing
+"::.windowmgr ShowWindowType uvmdetails"
+    ("eval" body line 1)
+    invoked from within
+"eval $vsimPriv(windowmgr) ShowWindowType $window_type"}
